@@ -41,6 +41,10 @@ pytest
 
 The simulator stands in for Postgres + Debezium + a SaaS billing API so everything runs locally. In production, the same assets would read from Kafka Connect / Debezium topics and the real API, and `crm_sync` would call the CRM's bulk API.
 
+## Walkthrough
+
+- [ ] 3-minute Loom walkthrough ([script ready](docs/walkthrough.md))
+
 ## Stack
 
 Dagster, DuckDB, SQLite (source stand-in), Python, pytest.
